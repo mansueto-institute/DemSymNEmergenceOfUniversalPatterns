@@ -184,7 +184,7 @@ else:
     plt.legend(prop={'size':13})
     plt.tight_layout()
 
-    # plot dklZipftrajectory
+    # plot D_KL trajectory
     years = np.arange(1, nYears+1, step)
     times = np.logspace(0, np.log10(nYears), 5)
     cm = plt.get_cmap('gist_earth')
